@@ -1,0 +1,14 @@
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\bin\Debug\net8.0\NewApp.exe
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\bin\Debug\net8.0\NewApp.deps.json
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\bin\Debug\net8.0\NewApp.runtimeconfig.json
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\bin\Debug\net8.0\NewApp.dll
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\bin\Debug\net8.0\NewApp.pdb
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\obj\Debug\net8.0\NewApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\obj\Debug\net8.0\NewApp.AssemblyInfoInputs.cache
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\obj\Debug\net8.0\NewApp.AssemblyInfo.cs
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\obj\Debug\net8.0\NewApp.csproj.CoreCompileInputs.cache
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\obj\Debug\net8.0\NewApp.dll
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\obj\Debug\net8.0\refint\NewApp.dll
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\obj\Debug\net8.0\NewApp.pdb
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\obj\Debug\net8.0\NewApp.genruntimeconfig.cache
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\NewApp\obj\Debug\net8.0\ref\NewApp.dll
