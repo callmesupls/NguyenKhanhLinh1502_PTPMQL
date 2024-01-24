@@ -17,6 +17,12 @@ namespace NewApp.Models
             Address = System.Console.ReadLine();
             System.Console.WriteLine("Enter your age: ");
             Age = int.Parse(System.Console.ReadLine());
+            try{
+                Age = Convert.ToInt16(Console.ReadLine());
+            }
+            catch(Exception e){
+                Age = 0;
+            }
         }
         public void Display(){
             System.Console.WriteLine("Name: {0}", FullName);
