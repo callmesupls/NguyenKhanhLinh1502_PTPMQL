@@ -283,3 +283,4 @@ E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\
 E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\MvcMovie\bin\Debug\net8.0\X.PagedList.dll
 E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\MvcMovie\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
 E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\MvcMovie\obj\Debug\net8.0\MvcMovie.MvcApplicationPartsAssemblyInfo.cs
+E:\Users\Call me Su\OneDrive - Hanoi University of Mining and Geology\Documents\All source code\Code C Sharp\NguyenKhanhLinh1502\MvcMovie\obj\Debug\net8.0\MvcMovie.sourcelink.json
