@@ -1,5 +1,8 @@
-MvcMovie/bin/Debug/
-MvcMovie/obj/
+# Không đẩy các thư mục bin và obj
+**/bin/
+**/obj/
+
+# Không đẩy các tệp cụ thể
 MvcMovie/App.db
 MvcMovie/App.db-shm
 MvcMovie/App.db-wal
