@@ -1,2 +1,5 @@
 MvcMovie/bin/Debug/
 MvcMovie/obj/
+MvcMovie/App.db
+MvcMovie/App.db-shm
+MvcMovie/App.db-wal
