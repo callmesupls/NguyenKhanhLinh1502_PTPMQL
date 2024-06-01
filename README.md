@@ -31,7 +31,7 @@ dotnet add package BCrypt.Net-Next --version 4.0.3
 
 #4. Tạo thư mục Data, rồi tạo file ApplicationDbContext.cs:
 ```sh
-public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
