@@ -1,8 +1,7 @@
-# Không đẩy các thư mục bin và obj
 **/bin/
 **/obj/
+# **/Migrations/
 
-# Không đẩy các tệp cụ thể
-MvcMovie/App.db
-MvcMovie/App.db-shm
-MvcMovie/App.db-wal
+# *.db
+# *.db-shm
+# *.db-wal
