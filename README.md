@@ -36,7 +36,7 @@ dotnet add package BCrypt.Net-Next --version 4.0.3
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-        public DbSet<Linh> Linhs { get; set; }
+        public DbSet<LopHoc> LopHocs { get; set; }
     }
 ```
 
@@ -44,7 +44,7 @@ dotnet add package BCrypt.Net-Next --version 4.0.3
 ```sh
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Data Source=Test.db; Cache=Shared"
+    "DefaultConnection": "Data Source=QuanLyLopHoc.db; Cache=Shared"
   },
   "Logging": {
     "LogLevel": {
@@ -68,11 +68,16 @@ dotnet ef migrations add Create_database
 dotnet ef database update
 ```
 #8. Chạy lệnh sau để tự động sinh code (Table đơn thì không cần sửa, còn Table có khoá ngoại thì phải sửa đoạn validate form):
+# Bài khác thì phải sửa 3 chỗ là SinhVien hoặc LopHoc, và tên project (CallmeSu_33) theo đầu bài
 ```sh
 dotnet aspnet-codegenerator controller -name SinhVienController -m SinhVien -dc CallmeSu_33.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
+
+ModelState.Remove("LopHoc");
+ModelState.IsValid
 ```
 ```sh
 dotnet aspnet-codegenerator controller -name LopHocController -m LopHoc -dc CallmeSu_33.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
+
 ```
 
 <img src="Đề thi kết thúc học phần.JPG" alt="Đề thi kết thúc học phần">
