@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CallmeSu_33.Models
 {
+    [Table("LopHoc")] //Tên bảng
     public class LopHoc
     {
         [Key] //đánh dấu là khóa chính

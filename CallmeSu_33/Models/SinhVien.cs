@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CallmeSu_33.Models
 {
+    [Table("SinhVien")] //Tên bảng
     public class SinhVien
     {
         [Key] //đánh dấu là khóa chính
