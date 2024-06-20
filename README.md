@@ -5,7 +5,7 @@
 
 #1. Tạo project
 ```sh
-dotnet new mvc -o CallmeSu_33
+dotnet new mvc -o NHQBaiThiLai
 ```
 
 #2. Trỏ vào project vừa tạo, hoặc dùng VS code vào thẳng cho nhanh
@@ -64,19 +64,19 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 ```
 #7. Chạy lệnh sau để tạo Migrations và database:
 ```sh
-dotnet ef migrations add Create_database
+dotnet ef migrations add Create_Database
 dotnet ef database update
 ```
 #8. Chạy lệnh sau để tự động sinh code (Table đơn thì không cần sửa, còn Table có khoá ngoại thì phải sửa đoạn validate form):
 # Bài khác thì phải sửa 3 chỗ là SinhVien hoặc LopHoc, và tên project (CallmeSu_33) theo đầu bài
 ```sh
-dotnet aspnet-codegenerator controller -name SinhVienController -m SinhVien -dc CallmeSu_33.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
+dotnet aspnet-codegenerator controller -name EmployeeController -m Employee -dc MvcMovie.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
 
 ModelState.Remove("LopHoc");
 ModelState.IsValid
 ```
 ```sh
-dotnet aspnet-codegenerator controller -name LopHocController -m LopHoc -dc CallmeSu_33.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
+dotnet aspnet-codegenerator controller -name EmployeeController -m Employee -dc MvcMovie.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
 
 ```
 
