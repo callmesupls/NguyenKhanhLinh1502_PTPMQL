@@ -27,8 +27,14 @@ dotnet add package X.PagedList.Mvc.Core --version 8.4.7
 dotnet add package BCrypt.Net-Next --version 4.0.3
 ```
 
-# 4. Đọc đề bài và tạo các bảng, tạo trong Models, lưu ý là KHÔNG CẦN BIẾT LÀM GÌ, PHẢI KHAI BÁO TÊN BẢNG ([Table("")] ) VÀ  KHOÁ CHÍNH ( [Key] ) Nếu đầu bài không yêu cầu tên khoá ngoại thì cứ đặt là public int Id { get, set }
-# Ví dụ Bảng kế thừa: public class Employee : Person (Lưu ý là khi kế thừa thì sẽ không khai báo [Key] tức là khoá chính)
+# 4. Đọc đề bài và tạo các bảng, tạo trong Models, lưu ý là KHÔNG CẦN BIẾT LÀM GÌ, PHẢI KHAI BÁO TÊN BẢNG ([Table("")] ) VÀ  KHOÁ CHÍNH ( [Key] ) Nếu đầu bài KHÔNG YÊU CẦU TÊN KHOÁ NGOẠI thì cứ đặt là:
+```sh
+ public int Id { get, set }
+ ```
+# Ví dụ Bảng kế thừa:
+```sh
+    public class Employee : Person //(Lưu ý là khi kế thừa thì sẽ không khai báo [Key] tức là khoá chính)
+```
 # Ví dụ Bảng đơn:
 ```sh
     [Table("LopHoc")] //Tên bảng 
@@ -42,7 +48,7 @@ dotnet add package BCrypt.Net-Next --version 4.0.3
         public string TenLop{ get; set; } 
     }
 ```
-# Ví dụ Bảng Nối:
+# Ví dụ Bảng Nối (Khoá ngoại):
 # Cách nối bảng xem ở dưới
 ```sh
     [Table("SinhVien")] //Tên bảng
@@ -58,7 +64,7 @@ dotnet add package BCrypt.Net-Next --version 4.0.3
 
         public int MaLop{ get; set; }
         [ForeignKey("MaLop")] //Nối tới khóa chính của bảng LopHoc (khai báo khoá ngoại)
-        public LopHoc LopHoc { get; set; } 
+        public LopHoc LopHoc { get; set; }
     }
 ```
 
