@@ -148,3 +148,68 @@ ModelState.IsValid
 2. Thì sẽ viết ở ô message là NKL391_Cau1. Tiếp theo ấn nút Commit, Tiếp theo nữa ấn Sync Changes là xong
 3. 
 ```
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+<h1>Cách làm câu 1</h1>
+
+
+
+
+
+# Bước một chạy lệnh:
+```sh
+dotnet new console --name TinhGiaiThua
+```
+
+# Bước 2: vào project vừa tạo:
+```sh
+cd TinhGiaiThua
+```
+
+# Bước 3: Vào file Program.cs và copy đoạn code tính giai thừa sau (Xoá sạch code trong file và copy vào):
+# Nếu bài khác có thể dùng chatgpt để lấy code xong dán vào
+```sh
+using System;
+
+class Program
+{
+    // Hàm tính giai thừa của một số nguyên dương
+    static long TinhGiaiThua(int n)
+    {
+        if (n == 0 || n == 1)
+            return 1;
+        
+        long giaiThua = 1;
+        for (int i = 2; i <= n; i++)
+        {
+            giaiThua *= i;
+        }
+        return giaiThua;
+    }
+
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Nhap so nguyen duong n de tinh giai thua:");
+        int n = int.Parse(Console.ReadLine());
+
+        if (n < 0)
+        {
+            Console.WriteLine("Khong tinh đuoc giai thua cua so am.");
+        }
+        else
+        {
+            long ketQua = TinhGiaiThua(n);
+            Console.WriteLine($"Giai thua cua {n} la: {ketQua}");
+        }
+    }
+}
+```
+
+# Bước 4: Chạy chương trình:
+```sh
+dotnet run
+```
