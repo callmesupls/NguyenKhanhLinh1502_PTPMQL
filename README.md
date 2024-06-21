@@ -103,7 +103,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 # 8. Chạy lệnh sau để tạo Migrations và database:
 # Đến đây có thể tắt các file (Program.cs, appsettings.json)
 ```sh
-dotnet ef migrations add Create_database
+dotnet ef migrations add Create_Database
 dotnet ef database update
 ```
 # 9. Chạy lệnh sau để tự động sinh code (Table đơn thì không cần sửa, còn Table có khoá ngoại thì phải sửa đoạn validate form):
