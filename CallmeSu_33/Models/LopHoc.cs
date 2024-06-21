@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace CallmeSu_33.Models
 {
-    [Table("LopHoc")] //Tên bảng
+    [Table("LopHoc")] //Tên bảng (nên copy)
     public class LopHoc
     {
-        [Key] //đánh dấu là khóa chính
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key] //đánh dấu là khóa chính (nên copy)
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] //(nên copy)
         public int MaLop{ get; set; }
-         [StringLength(60)] 
-        public string TenLop{ get; set; }
+         [StringLength(60)]  //(nên copy)
+        public string TenLop{ get; set; } //(nên copy)
 
         
     }
